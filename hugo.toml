@@ -1,0 +1,17 @@
+baseURL = 'https://charlottestormwater.com/'
+languageCode = 'en-us'
+title = 'Charlotte Stormwater'
+enableRobotsTXT = true
+
+[outputs]
+home = ["HTML","JSON","RSS"]
+
+[permalinks]
+services = "/services/:slug/"
+industries = "/industries/:slug/"
+projects = "/projects/:slug/"
+
+[taxonomies]
+service = "services"
+region = "regions"
+asset = "assets"

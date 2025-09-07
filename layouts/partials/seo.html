@@ -1,0 +1,21 @@
+{{- $title := .Title | default site.Title -}}
+<title>{{ $title }}</title>
+{{ with .Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+<link rel="canonical" href="{{ .Permalink }}">
+<meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
+<meta property="og:title" content="{{ $title }}">
+{{ with .Params.description }}<meta property="og:description" content="{{ . }}">{{ end }}
+<meta property="og:url" content="{{ .Permalink }}">
+{{ with .Params.featured_image }}<meta property="og:image" content="{{ . | absURL }}">{{ end }}
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Charlotte Stormwater",
+  "url": "https://charlottestormwater.com/",
+  "telephone": "+1-704-489-3415",
+  "areaServed": ["Charlotte NC","Mecklenburg County","Fort Mill SC","Rock Hill SC","Statesville NC","Greensboro NC","Hickory NC","Boone NC"],
+  "priceRange": "$$"
+}
+</script>
