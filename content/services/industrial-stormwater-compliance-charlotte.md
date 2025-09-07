@@ -41,14 +41,6 @@ We support industrial and commercial sites with practical stormwater compliance:
 - [Stormwater Basin Maintenance & Retrofits](/stormwater-basin-retrofits-charlotte/)
 - [Underground Stormwater Pipe Replacement](/stormwater-pipe-replacement-charlotte/)
 
----
-### Quick Quote (Commercial & Industrial Only)
-**Property type:** ☐ Industrial  ☐ Commercial  ☐ Municipal  ☐ HOA (limited)  
-**Urgency:** ☐ Emergency (24–48 hrs) ☐ 7–14 days ☐ Flexible  
-**Issue:** ☐ Catch basin ☐ Sinkhole ☐ Pipe failure ☐ Basin retrofit ☐ Other  
-**City:** ________    **Photos:** (attach if available)
-
-**Call now:** [(704) 489-3415](tel:+17044893415) or use the contact form.
 
 ---
 ### Service Area — Charlotte Metro

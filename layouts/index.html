@@ -42,7 +42,29 @@
   <section class="bg-white">
     <div class="mx-auto max-w-6xl px-4 py-12">
       <h2 class="text-3xl font-extrabold mb-6">Featured Services</h2>
-
+      <!-- Cool bullets under Featured Services (with icons + lorem ipsum) -->
+      <ul class="mt-8 grid gap-3 md:grid-cols-3">
+        <li class="flex items-start gap-3">
+          <!-- droplet icon -->
+          <svg class="h-5 w-5 mt-1" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M12 2C12 2 5 9 5 14a7 7 0 1 0 14 0c0-5-7-12-7-12z" />
+          </svg>
+          <span>Regulatory SCM/BMP inspections with fast, documentation reports.</span>
+        </li>
+        <li class="flex items-start gap-3">
+          <svg class="h-5 w-5 mt-1" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M12 2C12 2 5 9 5 14a7 7 0 1 0 14 0c0-5-7-12-7-12z" />
+          </svg>
+          <span>Emergency repairs, erosion control, inlet/outfall fixes.</span>
+        </li>
+        <li class="flex items-start gap-3">
+          <svg class="h-5 w-5 mt-1" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M12 2C12 2 5 9 5 14a7 7 0 1 0 14 0c0-5-7-12-7-12z" />
+          </svg>
+          <span>Sinkholes, catch-basin repairs, sump-pumps, natural spring drainage. </span>
+        </li>
+      </ul>
+      <br>
       <div class="grid gap-4 md:grid-cols-3">
         {{ range first 6 (where site.RegularPages "Section" "services") }}
           <a href="{{ .RelPermalink }}" class="block rounded-2xl border p-5 hover:shadow-sm transition">
@@ -52,28 +74,7 @@
         {{ end }}
       </div>
 
-      <!-- Cool bullets under Featured Services (with icons + lorem ipsum) -->
-      <ul class="mt-8 grid gap-3 md:grid-cols-3">
-        <li class="flex items-start gap-3">
-          <!-- droplet icon -->
-          <svg class="h-5 w-5 mt-1" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-            <path d="M12 2C12 2 5 9 5 14a7 7 0 1 0 14 0c0-5-7-12-7-12z" />
-          </svg>
-          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-        </li>
-        <li class="flex items-start gap-3">
-          <svg class="h-5 w-5 mt-1" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-            <path d="M12 2C12 2 5 9 5 14a7 7 0 1 0 14 0c0-5-7-12-7-12z" />
-          </svg>
-          <span>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
-        </li>
-        <li class="flex items-start gap-3">
-          <svg class="h-5 w-5 mt-1" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-            <path d="M12 2C12 2 5 9 5 14a7 7 0 1 0 14 0c0-5-7-12-7-12z" />
-          </svg>
-          <span>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</span>
-        </li>
-      </ul>
+      
     </div>
   </section>
   
