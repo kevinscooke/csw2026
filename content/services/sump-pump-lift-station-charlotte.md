@@ -9,7 +9,7 @@ weight: 70
 ---
 
 **Insured professional** specializing in **stormwater sump pumps** and **sanitary/sewer lift stations**.  
-We provide **$995 inspections**, **off-hours repairs**, and **24/7 emergency response** for industrial, commercial, and municipal clients in Charlotte and surrounding areas.
+We provide **inspections**, **off-hours repairs**, and **24/7 emergency response** for industrial, commercial, and municipal clients in Charlotte and surrounding areas.
 
 ---
 
@@ -50,7 +50,7 @@ Reliable service for **wastewater pump stations** in commercial, industrial, and
 ---
 
 ## Our Process
-1. **Inspection** — $995 flat rate, detailed report with recommendations
+1. **Inspection** — flat rate, detailed report with recommendations
 2. **Plan & Quote** — emergency or scheduled work based on urgency
 3. **Service & Test** — verify system performance and compliance
 4. **Follow-up** — preventative maintenance scheduling available
