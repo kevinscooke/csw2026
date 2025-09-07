@@ -7,7 +7,7 @@ menu:
   main:
     weight: 1
 ---
-*Did you recieve a Notice of Violation or Notice of Maintenance Required? We can help!*
+*Did you receive a Notice of Violation or Notice of Maintenance Required? We can help!*
 
 ## Post-Construction Stormwater Control Ordinance (PCSO) 
 

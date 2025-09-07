@@ -13,7 +13,7 @@ Charlotte Stormwater offers annual stormwater inspection reports, notice of viol
 
 https://www.charlottenc.gov/Services/Stormwater
 
-_Charlotte-Meckleburg Storm Water Services_ is a collaborative municipal and county stormwater utility, encompassing the City of Charlotte and the neighboring towns of Cornelius, Davidson, Huntersville, Matthews, Mint Hill, Pineville, and Mecklenburg County.
+_Charlotte-Mecklenburg Storm Water Services_ is a collaborative municipal and county stormwater utility, encompassing the City of Charlotte and the neighboring towns of Cornelius, Davidson, Huntersville, Matthews, Mint Hill, Pineville, and Mecklenburg County.
 
 https://regionalstormwater.org/
 
