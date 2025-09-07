@@ -15,3 +15,8 @@ projects = "/projects/:slug/"
 service = "services"
 region = "regions"
 asset = "assets"
+
+[params.analytics]
+provider = "gtag"          # "gtag" or "gtm"
+ga4_id   = "G-7V5YR3TCLX"  # your GA4 ID
+gtm_id   = ""              # e.g., "GTM-XXXXXXX" (leave blank for now)
