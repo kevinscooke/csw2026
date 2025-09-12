@@ -6,7 +6,7 @@ enableRobotsTXT = true
 enableGitInfo = true # for "lastmod" in RSS feed
 
 [outputs]
-home = ["HTML","JSON","RSS", "RobotsTXT"]
+home = ["HTML","JSON","RSS"]
 
 [sitemap]
   changefreq = "weekly"

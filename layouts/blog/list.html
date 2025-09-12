@@ -1,0 +1,32 @@
+{{ define "main" }}
+<section class="mx-auto max-w-6xl px-4 py-10">
+  <h1 class="text-4xl font-bold tracking-tight">Charlotte Stormwater Blog</h1>
+  <p class="mt-2 text-gray-600">Practical stormwater tips, compliance, and repair guides for Charlotte-area properties.</p>
+
+  {{ $p := .Paginate .RegularPages }}
+  <div class="mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+    {{ range $p.Pages }}
+      <article class="group rounded-2xl border bg-white p-5 shadow-sm transition hover:shadow-md">
+        <a href="{{ .RelPermalink }}" class="block">
+          <h2 class="text-xl font-semibold group-hover:underline">{{ .Title }}</h2>
+          <div class="mt-1 text-sm text-gray-500">
+            <time datetime="{{ .Date }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+            <span aria-hidden="true"> • </span>{{ .ReadingTime }} min read
+          </div>
+          <p class="mt-3 text-gray-700">
+            {{ with .Params.summary }}{{ . }}{{ else }}{{ .Plain | truncate 160 }}{{ end }}
+          </p>
+          <span class="mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-700 group-hover:gap-2">
+            Read more
+            <svg viewBox="0 0 24 24" class="h-4 w-4" fill="currentColor" aria-hidden="true">
+              <path d="M13.5 5.5L20 12l-6.5 6.5-1.4-1.4 4.1-4.1H4v-2h12.2l-4.1-4.1 1.4-1.4z"/>
+            </svg>
+          </span>
+        </a>
+      </article>
+    {{ end }}
+  </div>
+
+  {{ partial "pagination.html" . }}
+</section>
+{{ end }}

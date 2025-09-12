@@ -1,8 +1,13 @@
 +++
-title = 'Charlotte Stormwater is Live!'
+title = "Charlotte Stormwater is Live — Inspections, Maintenance & Retrofits"
+slug = "charlotte-stormwater-is-live"
 date = 2023-12-19T08:29:40-05:00
-draft = true
+draft = false
+summary = "CharlotteStormwater.com is now live—your local resource for SCM/BMP inspections, drainage maintenance, retrofits, and help responding to Notices of Maintenance Required."
+description = "Charlotte stormwater services: SCM/BMP inspections and reports, drainage maintenance, retrofits, and NMR support for property owners and managers across the Charlotte metro."
+tags = ["Charlotte NC", "SCM inspections", "BMP maintenance", "retrofits", "Notice of Maintenance Required", "stormwater services"]
 +++
+
 
 Welcome to **CharlotteStormwater.com**, your comprehensive resource for addressing stormwater-related challenges in North Carolina. As a property owner, you understand the significance of effective stormwater management in maintaining the health and resilience of your community. Whether you're navigating stormwater control measures (SCMs) on your property or grappling with new flooding issues arising from development, our platform is here to provide the guidance and assistance you need. Our mission is to empower property owners with the knowledge and tools necessary to navigate the complexities of stormwater management successfully.
 

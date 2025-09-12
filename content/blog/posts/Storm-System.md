@@ -1,8 +1,13 @@
 +++
-title = 'Storm Drainage System'
+title = "Storm Drainage Systems: Inlets, Pipes, Catch Basins, and Maintenance"
+slug = "storm-drainage-system-overview"
 date = 2023-12-20T13:29:40-05:00
-draft = true
+draft = false
+summary = "How storm drainage systems collect and convey runoff, common failure points we see in Charlotte, and the maintenance steps that prevent flooding and property damage."
+description = "Overview of storm drainage components—curbs, gutters, inlets, catch basins, and pipes—plus why proactive maintenance reduces flooding, erosion, and costly repairs."
+tags = ["storm drainage", "catch basins", "drainage maintenance", "flooding", "erosion", "Charlotte NC"]
 +++
+
 
 Communities strategically construct stormwater drainage systems, often referred to as stormwater sewer systems, to efficiently collect and transport surface runoff. This proactive measure serves to mitigate local flooding, which has the potential to disrupt traffic flow, cause structural damage to buildings, and jeopardize both personal and public property. The intricate network of drainage system components includes curbs, gutters, drainage swales, ditches, inlets leading to catch basins, and an underground web of stormwater pipes. The primary objective is to channel rainfall runoff and snowmelt toward designated outlets such as streams, rivers, tidal bodies of water, or treatment plants. Innovative urban planning incorporates rain gardens, stormwater ponds, specialized paving materials, and other features aimed at encouraging runoff absorption into the ground, thus reducing reliance on conventional stormwater drainage systems.
 
