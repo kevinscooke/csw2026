@@ -7,7 +7,10 @@
     {{ $styles := resources.Get "css/main.css" | postCSS | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}">
     <link rel="icon" href="/favicon.ico" sizes="any">
-    <link rel="icon" type="image/png" href="/favicon.png">  
+    <link rel="icon" type="image/png" href="/favicon.png">
+    {{- $base := (replaceRE "/$" "" .Site.BaseURL) -}}
+    {{- $canonical := cond .IsHome $base .Permalink -}}
+    <link rel="canonical" href="{{ $canonical }}" />
   </head>
   <body class="min-h-screen bg-gray-50 text-gray-900 flex flex-col">
     {{ partial "header.html" . }}

@@ -1,11 +1,18 @@
 baseURL = 'https://charlottestormwater.com/'
+canonifyURLs = true # ensures all URLs are absolute
 languageCode = 'en-us'
 title = 'Charlotte Stormwater'
 enableRobotsTXT = true
+enableGitInfo = true # for "lastmod" in RSS feed
 
 [outputs]
-home = ["HTML","JSON","RSS"]
+home = ["HTML","JSON","RSS", "RobotsTXT"]
 
+[sitemap]
+  changefreq = "weekly"
+  filename   = "sitemap.xml"
+  priority   = 0.5
+  
 [permalinks]
 services = "/services/:slug/"
 industries = "/industries/:slug/"
