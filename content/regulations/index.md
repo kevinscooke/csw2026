@@ -2,7 +2,6 @@
 title: "Regulations"
 omit_header_text: true
 description: "Charlotte-Mecklenburg Post Construction Stormwater Ordinance - Regulations and Enforcement"
-featured_image: '/images/ncstormwaterbgh.jpg'
 menu:
   main:
     weight: 1

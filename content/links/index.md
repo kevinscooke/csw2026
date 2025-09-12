@@ -2,7 +2,6 @@
 title: "Links"
 omit_header_text: true
 description: "A few helpful links and stormwater resources for the Charlotte Metrol area."
-featured_image: '/images/ncstormwaterbgh.jpg'
 menu:
   main:
     weight: 4

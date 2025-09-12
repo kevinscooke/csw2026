@@ -1,7 +1,6 @@
 ---
 title: "PFAS"
 description: "One type of PFAS, called PFOS (perfluorooctane sulfonate), has been a particular focus of concern in the Charlotte, North Carolina area."
-featured_image: '/images/ncsandfilterbg.jpg'
 menu:
   main:
     weight: 4
