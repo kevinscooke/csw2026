@@ -31,11 +31,11 @@ While we offer comprehensive stormwater services, we also provide specialized so
 
 **Customized for Local Compliance**
 
-Navigating the local regulatory landscape can be challenging. That’s why we specialize in tailoring our services to meet the specific requirements of the Charlotte Metro area and surrounding regions. Whether you’re dealing with city, county, or state stormwater mandates, we ensure your systems are compliant and performing to the highest standards.
+Navigating the local regulatory landscape can be challenging. That’s why we specialize in tailoring our services to meet the specific requirements of the Charlotte Metro area, Mecklenburg County, and surrounding regions. Whether you’re dealing with city, county, or state stormwater mandates, we ensure your systems are compliant and performing to the highest standards.
 
 
 
-Oil Water Separator **(OWS)** | Private Septic Systems | Lift Station Maintenance **(LS)** | Fatty Oils & Grease **(FOG)** 
+Oil Water Separator **(OWS)** | Private Sanitary Sewer Systems | Lift Station Maintenance **(LS)** | Fatty Oils & Grease **(FOG)** 
 
 **Need Help with a Notice of Maintenance Required (NMR) ?**
 

@@ -1,0 +1,24 @@
+[
+{{- $pages := site.RegularPages -}}
+{{- $main := site.Params.mainSections -}}
+{{- if $main }}{{ $pages = where $pages "Type" "in" $main }}{{ end -}}
+{{- range $i, $p := $pages -}}
+  {{- if $i }},{{ end -}}
+  {
+    "title": {{ $p.Title | jsonify }},
+    "url": {{ $p.RelPermalink | jsonify }},
+    "date": {{ $p.Date | time.Format "2006-01-02" | jsonify }},
+    "summary": {{ (
+        cond (gt (len $p.Summary) 0)
+             ($p.Summary | plainify)
+             ($p.Plain | plainify)
+      )
+      | replaceRE "\\s+" " "
+      | truncate 180
+      | jsonify
+    }},
+    "tags": {{ $p.Params.tags | default (slice) | jsonify }},
+    "section": {{ $p.Section | jsonify }}
+  }
+{{- end -}}
+]

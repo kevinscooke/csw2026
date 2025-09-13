@@ -2,16 +2,9 @@
 title: "Custom Trash Racks"
 layout: "single"
 description: "Charlotte Stormwater can help you source trash racks manufactured to engineering specifications."
-featured_image: ''
-omit_header_text: true
-menu:
-  main:
-    weight: 2
 ---
 
 Managing stormwater is critical for protecting local water systems from pollution. Trash racks are an effective way to reduce debris, plastic waste, and other contaminants from entering drainage systems, preserving the environment and reducing the risk of flooding.
-
-![Trash Rack](/images/custom_trash_rack.png)
 
 ## Why Choose Our Trash Racks?
 Customized for Your Needs:
